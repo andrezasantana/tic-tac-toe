@@ -8,9 +8,10 @@ body {
 
 h1 {
     color: #7A306C;
-    font-size: 62px;
+    font-size: 64px;
     padding-bottom: 32px;
     font-family: monospace;
+    margin: 0;
 }
 
 .container {
@@ -62,4 +63,12 @@ button:hover {
 
 .x {
     color: #7A306C;
+}
+
+.player {
+    color: rgb(48, 86, 109);
+    font-size: 16px;
+    cursor: pointer;
+    font-family: monospace;
+    padding-bottom: 48px;
 }

@@ -10,6 +10,12 @@
 <body>
     <div class="container">
         <h1>Tic-Tac-Toe</h1>
+
+        <div class="player">
+            <label>Current player:</label>
+            <span id="player">X</span>
+        </div>
+
         <div id="game">
             <div class="space" onclick="addition(this)"></div>
             <div class="space" onclick="addition(this)"></div>
@@ -21,6 +27,7 @@
             <div class="space" onclick="addition(this)"></div>
             <div class="space" onclick="addition(this)"></div>
         </div>
+
         <button type="reset" onclick="reset()">Reset</button>
     </div>
 </body>
