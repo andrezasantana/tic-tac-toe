@@ -1,15 +1,17 @@
-var mark = '<span class="x">x</span>';
+var mark = 'x';
 
-function addition(el) {
-    if (el.innerHTML != '') return;
+function addition(space) {
+    if (space.innerHTML != '') return;
 
-    el.innerHTML = mark;
+    space.innerHTML = mark;
 
-    if (mark == '<span class="x">x</span>') {
-        mark = '<span class="o">o</span>';
+    if (mark == 'x') {
+        space.classList.add('x');
+        mark = 'o';
         document.getElementById('player').innerHTML = "o";
     } else {
-        mark = '<span class="x">x</span>';
+        space.classList.add('o');
+        mark = 'x';
         document.getElementById('player').innerHTML = "x";
     }
 }
@@ -19,5 +21,6 @@ function reset() {
     for (let i = 0; i < spaces.length; i++) {
         const space = spaces[i];
         space.innerHTML = '';
+        space.classList.remove('x', 'o');
     }
 }
