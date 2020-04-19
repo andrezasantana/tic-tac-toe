@@ -1,7 +1,7 @@
 # Tic Tac Toe
 
 ## TODO
-- Verificar ganhador
+- ~~Verificar ganhador~~
 - ~~Mostrar jogador da vez~~
 - ~~Reiniciar o jogo~~
 - Fazer a máquina jogar

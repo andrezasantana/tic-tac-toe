@@ -73,3 +73,6 @@ button:hover {
     font-family: monospace;
     padding-bottom: 48px;
 }
+.highlight {
+    background-color: #F2B5D4;
+}
