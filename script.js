@@ -1,6 +1,6 @@
 var mark = 'x';
 
-function addition(space) {
+function game(space) {
     if (space.innerHTML != '') return;
 
     space.innerHTML = mark;
